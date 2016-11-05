@@ -175,6 +175,8 @@ $ git push origin master
 ----------
 
 References:
+
+
 Latex git Cheat Sheet, 2012-2013 Max Oberberger, https://github.com/chiemseesurfer/latex-gitCheatSheet
 
 Git教程，廖雪峰， http://www.liaoxuefeng.com/
