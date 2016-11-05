@@ -148,7 +148,7 @@ https 和 ssh 是用来验证身份的方式。使用https 需要用户在进行
 $ git remote set-url origin <new URL>
 ```
 
-比如之前我们为origin设置的url是 https 验证，"https://github.com/Halooo/git_guide.git"，在我们设置好SSH 公钥和私钥之后，在`<new URL>` 位置填上 "git@github.com:Halooo/git_guide.git" 就成功将之前的remote地址更改为新的remote地址了。
+比如之前我们为origin设置的url是 https 验证，"https://github.com/Halooo/git_guide.git" ，在我们设置好SSH 公钥和私钥之后，在`<new URL>` 位置填上 "git@github.com:Halooo/git_guide.git" 就成功将之前的remote地址更改为新的remote地址了。
 
 ***# side note end***
 
@@ -171,6 +171,17 @@ $ git push origin master
 若提示输入用户名密码就输入github注册账号的邮箱以及密码，输入完成之后就可以尝试刷新网页。
 
 恭喜！你成功地在 github 上创建了你的第一个 repository。（开源大法好！）
+
+----------
+
+References:
+Latex git Cheat Sheet, 2012-2013 Max Oberberger, https://github.com/chiemseesurfer/latex-gitCheatSheet
+
+Git教程，廖雪峰， http://www.liaoxuefeng.com/
+
+GitHub Guide, GitHub, https://git-scm.com/docs
+
+----------
 
 
 
