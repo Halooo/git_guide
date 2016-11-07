@@ -50,25 +50,25 @@ $ git config --global user.email youremail@host.com
 
 1. 1 首先在首页点击 Start a project
 
-![createRepo](./helloworld.jpg)
+![createRepo](./img/helloworld.jpg)
 
 ----------
 
 1. 2 或者在个人 Profile 页面进入 Repository 并点击 New
 
-![createRepo](./createrepo2.png)
+![createRepo](./img/createrepo2.png)
 
 ----------
 
 2. 在新打开的页面输入项目名称；项目描述（可选）；建立README.md 展示文件（打钩，可选；添加 .gitignore，也就是限制当前项目中哪些文件不需要上传的配置文件，这个初学阶段暂时不需要；还有证书（可选）。最后点击绿色按钮 Create repository
 
-![createRepo](./createrepo3.png)
+![createRepo](./img/createrepo3.png)
 
 ----------
 
 3. 点击创建之后可以看到如下图所示的页面
 
-![createRepo](./createrepo4.png)
+![createRepo](./img/createrepo4.png)
 
 
 
@@ -120,7 +120,7 @@ $ git commit -m "commit message"
 
 
 
-![gitoperation](./gitoperation.png)
+![gitoperation](./img/gitoperation.png)
 
 上图很清晰地表示了git 一些基本操作在：本地（working directory），git repository 和 服务器远程（remote repository） 的关系。
 
@@ -134,7 +134,7 @@ $ git remote add origin <URL>
 
 `<URL>` 的位置就放上之前github 网页上看到的那个https/ssh URL 地址
 
-![url](./giturl.png)
+![url](./img/giturl.png)
 
 初学阶段可以先选择使用HTTPS
 
@@ -187,4 +187,4 @@ GitHub Guide, GitHub, https://git-scm.com/docs
 
 
 
-![notfount](./404.png)
+![notfount](./img/404.png)
