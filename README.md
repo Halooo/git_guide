@@ -13,4 +13,5 @@
 | 入门 [Introduction](https://github.com/Halooo/git_guide/blob/master/Introduction.md) |
 | 设置SSH验证 [SSH Key Setup](https://github.com/Halooo/git_guide/blob/master/SSH%20key.md) |
 | 整合commit记录 [Clean Commit with git rebase](https://github.com/Halooo/git_guide/blob/master/Clean%20Commit.md) |
+| 通过stash暂存修改 [Git Stash](https://github.com/Halooo/git_guide/blob/master/Git%20Stash.md) |
 
