@@ -73,7 +73,7 @@ $ vim github_id_rsa.pub
 
 ## 管理多个账号及 SSH key
 
-在使用时我们可能会遇到个人拥有一个github账号和一个公司gitlab账号的情况。这时我们可能需要设立多个来管理我们的 SSH key。
+在使用时我们可能会遇到个人拥有多个github账号和一个公司gitlab账号的情况。这时我们可能需要设立多个keys来管理我们的 SSH key。
 
 首先要在 `~/.ssh/` 目录下建立一个 `config` 文件
 
@@ -89,12 +89,24 @@ Host gitlab.com
     HostName gitlab.com
     IdentityFile ~/.ssh/gitlab_id_rsa
 
-# github
-Host github.com
+# github username myaccount
+Host github.com-myaccount
     HostName github.com
     IdentityFile ~/.ssh/github_id_rsa
+
+# github username hacker
+Host github.com-hacker
+    HostName github.com
+    IdentityFile ~/.ssh/github_hacker_rsa
 ```
 
 `IdentityFile ` 是你在创建 ssh key 时命名的文件地址
 
-设置完毕后就会根据不同的 host 匹配不同的 ssh key 了。
+然后分别到每个local git repository的 `.git` 文件夹中修改 `.git/config` 文件下的 `[remote "origin"]` 设置
+
+``` shell
+[remote "origin"]
+        url = git@github.com-myaccount:user_name/repo_name.git
+```
+
+设置完毕后每个repository就会根据不同的 host 匹配不同的 ssh key 了。
